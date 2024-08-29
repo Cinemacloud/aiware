@@ -183,14 +183,7 @@ class NST<T extends TypedArray> {
     // ... (other helper methods from DSDT NST)
 
     private coordinatesToIndex(coordinates: number[]): number {
-        return coordinates.reduce((acc, val, idx) => acc * this.shape
-
-
-
-
-
-TypeScript
-       [idx] + val, 0);
+        return coordinates.reduce((acc, val, idx) => acc * this.shape[idx] + val, 0);
     }
 
     private isSameShape(otherTensor: NeuroSymbolicTensor<T>): boolean {
