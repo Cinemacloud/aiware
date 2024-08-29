@@ -34,6 +34,8 @@ QISMEL(s, a) <- QISMEL(s, a)
 + ζ * EvolutionaryOptimization(Population)
 + η * LatentLearningAndReasoning(s)
 
+*/
+
 // Enhanced Neuro-Symbolic Tensor (NST) - Merging strengths from DSDT NST
 
 /**
