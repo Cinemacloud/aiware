@@ -473,6 +473,8 @@ class AGI {
     }
 }
 
+export { Complex, Matrix, Gate };
+
 // Other Classes and Interfaces (from "AIware")
 // - PerceptionModule, ActionSelectionModule, ModelInterface, etc.
 // ... (implementations or outlines, potentially enhanced for multimodality)
