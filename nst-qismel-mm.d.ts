@@ -2,6 +2,9 @@
 
 Xenodyne / Gemini 1.5 pro
 
+"An agent is an object that has goals, geometry/topoology embedding, and concept of quantities/basic operations"
+- François Chollet
+
 Source classic "Q*" agentic model:
 Q(s, a) <- Q(s, a) + α [r + γ * max_[a'] Q(s', a') - Q(s, a)] + ...*
 Core Components:
