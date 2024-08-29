@@ -1,4 +1,38 @@
+/* 
 
+Xenodyne / Gemini 1.5 pro
+
+Source classic "Q*" agentic model:
+Q(s, a) <- Q(s, a) + α [r + γ * max_[a'] Q(s', a') - Q(s, a)] + ...*
+Core Components:
+Q(s, a):* This represents the updated estimate of the value of taking action 'a' in state 's'. It's the agent's "best guess" of how good that action is in that particular situation.
+Q(s, a): This is the current estimate of the value of taking action 'a' in state 's'.
+α: The learning rate, which determines how quickly the agent updates its Q-values based on new information.
+r: The reward received for taking action 'a' in state 's'. This could be a positive reward for achieving a goal or a negative reward for making a mistake.
+γ: The discount factor, which determines how much the agent values future rewards compared to immediate rewards. A higher discount factor means the agent is more "forward-thinking".
+max_[a'] Q(s', a'): This represents the maximum estimated value of taking any action 'a'' in the next state 's''. It's the agent's prediction of the best possible outcome after taking the current action.
+
+Classic  Q* formula updates the agent's estimate of the action value:
+The current estimate: Q(s, a)
+The immediate reward: r
+The predicted future value: γ * max_[a'] Q(s', a'
+
+nst-Q*ISMEL-mm Extends by:
+*   Multimodal perception and processing
+*   Symbolic reasoning and knowledge representation
+*   Intrinsic motivation and exploration
+*   Meta-learning and adaptation
+*   Latent learning and reasoning
+*   Interaction with other modules from "AIware"
+*   Emergent behaviors and overall performance
+
+QISMEL(s, a) <- QISMEL(s, a)
++ α [r + γ * max_[a'] QISMEL(s', a') - QISMEL(s, a)]
++ β * IntrinsicReward(s, a)
++ δ * SymbolicReasoning(NST(s, a))
++ ε * MetaLearning(Task, Environment)
++ ζ * EvolutionaryOptimization(Population)
++ η * LatentLearningAndReasoning(s)
 
 // Enhanced Neuro-Symbolic Tensor (NST) - Merging strengths from DSDT NST
 
