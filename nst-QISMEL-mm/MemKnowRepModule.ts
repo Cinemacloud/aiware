@@ -1,8 +1,7 @@
 /**
- * Memory and Knowledge Representation Module
- * 
- * Purpose: 
- * This module is responsible for storing, retrieving, and organizing the agent's
+ * @file MemoryAndKnowledgeModule.ts
+ * @module MemoryAndKnowledgeModule
+ * @description This module is responsible for storing, retrieving, and organizing the agent's
  * experiences and knowledge. It combines a holographic memory system for efficient
  * storage and retrieval of complex patterns with a traditional memory system for
  * explicit knowledge representation.
@@ -11,9 +10,14 @@
  * - Holographic memory for storing and retrieving complex patterns
  * - Traditional memory systems for short-term and long-term storage
  * - Integration of different memory types for comprehensive knowledge representation
+ * - Efficient encoding and decoding of information using high-dimensional vectors
+ * - Associative recall capabilities for content-based information retrieval
+ * - Fault-tolerant storage through distributed representation
  * 
  * @module MemoryAndKnowledgeModule
  */
+
+import { NST } from './types';
 
 export class MemoryAndKnowledgeModule {
     private holographicMemory: HolographicMemory;
